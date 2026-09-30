@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "release": "SK2-RC2",
+  "status": "release_candidate",
+  "original_sha256": "7dff59e986643543c28c7f71c1f43f78c936867b25b078e0c1bd0ea5a6fe3853",
+  "patched_sha256": "08555b7437781bcef803f6469eb56428aa1dc30716a262938f7b211a0e863146",
+  "original_size": 55544,
+  "patched_size": 55668,
+  "application_base": "0x8010000",
+  "original_end_exclusive": "0x801d8f8",
+  "patched_end_exclusive": "0x801d974",
+  "patched_last_byte": "0x801d973",
+  "handler_code_size": 120,
+  "handler_size": 124,
+  "handler_literal_address": "0x801d970",
+  "minimum_compatible_flash_limit_exclusive": "0x8020000",
+  "remaining_bytes_under_minimum_compatible_model": 9868,
+  "actual_mcu_identification": "Not physically read; STM32F100xB minimum compatible model inferred",
+  "changes": [
+    {
+      "offset": "0x3346",
+      "end_exclusive": "0x334a",
+      "original_hex": "2088c01f",
+      "patched_hex": "0af0d7ba",
+      "purpose": "Thumb B.W to appended handler"
+    },
+    {
+      "offset": "0xd8f8",
+      "end_exclusive": "0xd974",
+      "original_hex": "",
+      "patched_hex": "208806b445f2170188421fd045f2180188421dd045f2190188421bd045f21a01884219d045f21b01884217d045f21c01884215d045f21d01884213d045f21e01884211d006bcc01ff5f703bd01250ce005250ae0062508e0072506e0032504e0022502e0042500e0002506bcf5f748fc01490d70f5f7b2bdd30e0020",
+      "purpose": "Eight direct selections through the native source path"
+    }
+  ],
+  "commands": [
+    {
+      "button": "0",
+      "event": "0x5017",
+      "source_id": 1,
+      "nec_command": "0x33"
+    },
+    {
+      "button": "1",
+      "event": "0x5018",
+      "source_id": 5,
+      "nec_command": "0x23"
+    },
+    {
+      "button": "2",
+      "event": "0x5019",
+      "source_id": 6,
+      "nec_command": "0x24"
+    },
+    {
+      "button": "3",
+      "event": "0x501a",
+      "source_id": 7,
+      "nec_command": "0x25"
+    },
+    {
+      "button": "4",
+      "event": "0x501b",
+      "source_id": 3,
+      "nec_command": "0x26"
+    },
+    {
+      "button": "5",
+      "event": "0x501c",
+      "source_id": 2,
+      "nec_command": "0x27"
+    },
+    {
+      "button": "6",
+      "event": "0x501d",
+      "source_id": 4,
+      "nec_command": "0x28"
+    },
+    {
+      "button": "7",
+      "event": "0x501e",
+      "source_id": 0,
+      "nec_command": "0x29"
+    }
+  ],
+  "physical_mapping_evidence": "Owner-reported AMP-mode VS1838B/ESP32 captures; see data/ir_mapping.json",
+  "qualification": "Generation verifies deterministic bytes only; run qualify_rc2.py and local emulator suites",
+  "physical_rc2_tested": false,
+  "system_version_string_changed": false,
+  "nvram_format_changed": false,
+  "known_checksum_updated": false,
+  "known_signature_updated": false,
+  "scope": "Short release events only, with original power/protection guards and native source worker"
+}

@@ -1,0 +1,447 @@
+{
+  "status": "PASS",
+  "original_sha256": "7dff59e986643543c28c7f71c1f43f78c936867b25b078e0c1bd0ea5a6fe3853",
+  "rc2_sha256": "08555b7437781bcef803f6469eb56428aa1dc30716a262938f7b211a0e863146",
+  "original_size": 55544,
+  "rc2_size": 55668,
+  "changed_original_offsets": [
+    "0x3346",
+    "0x3347",
+    "0x3348",
+    "0x3349"
+  ],
+  "appended_bytes": 124,
+  "handler_code_bytes": 120,
+  "literal_address": "0x0801d970",
+  "literal_value": "0x20000ed3",
+  "branch_checks": [
+    {
+      "from": "0x8013346",
+      "instruction": "b.w",
+      "target": "0x801d8f8",
+      "pc_relative_displacement": 42414
+    },
+    {
+      "from": "0x801d902",
+      "instruction": "beq",
+      "target": "0x801d944",
+      "pc_relative_displacement": 62
+    },
+    {
+      "from": "0x801d90a",
+      "instruction": "beq",
+      "target": "0x801d948",
+      "pc_relative_displacement": 58
+    },
+    {
+      "from": "0x801d912",
+      "instruction": "beq",
+      "target": "0x801d94c",
+      "pc_relative_displacement": 54
+    },
+    {
+      "from": "0x801d91a",
+      "instruction": "beq",
+      "target": "0x801d950",
+      "pc_relative_displacement": 50
+    },
+    {
+      "from": "0x801d922",
+      "instruction": "beq",
+      "target": "0x801d954",
+      "pc_relative_displacement": 46
+    },
+    {
+      "from": "0x801d92a",
+      "instruction": "beq",
+      "target": "0x801d958",
+      "pc_relative_displacement": 42
+    },
+    {
+      "from": "0x801d932",
+      "instruction": "beq",
+      "target": "0x801d95c",
+      "pc_relative_displacement": 38
+    },
+    {
+      "from": "0x801d93a",
+      "instruction": "beq",
+      "target": "0x801d960",
+      "pc_relative_displacement": 34
+    },
+    {
+      "from": "0x801d940",
+      "instruction": "b.w",
+      "target": "0x801334a",
+      "pc_relative_displacement": -42490
+    },
+    {
+      "from": "0x801d946",
+      "instruction": "b",
+      "target": "0x801d962",
+      "pc_relative_displacement": 24
+    },
+    {
+      "from": "0x801d94a",
+      "instruction": "b",
+      "target": "0x801d962",
+      "pc_relative_displacement": 20
+    },
+    {
+      "from": "0x801d94e",
+      "instruction": "b",
+      "target": "0x801d962",
+      "pc_relative_displacement": 16
+    },
+    {
+      "from": "0x801d952",
+      "instruction": "b",
+      "target": "0x801d962",
+      "pc_relative_displacement": 12
+    },
+    {
+      "from": "0x801d956",
+      "instruction": "b",
+      "target": "0x801d962",
+      "pc_relative_displacement": 8
+    },
+    {
+      "from": "0x801d95a",
+      "instruction": "b",
+      "target": "0x801d962",
+      "pc_relative_displacement": 4
+    },
+    {
+      "from": "0x801d95e",
+      "instruction": "b",
+      "target": "0x801d962",
+      "pc_relative_displacement": 0
+    },
+    {
+      "from": "0x801d964",
+      "instruction": "bl",
+      "target": "0x80131f8",
+      "pc_relative_displacement": -42864
+    },
+    {
+      "from": "0x801d96c",
+      "instruction": "b.w",
+      "target": "0x80134d4",
+      "pc_relative_displacement": -42140
+    }
+  ],
+  "unaltered_partitions": [
+    {
+      "offset_start": "0x0",
+      "offset_end_exclusive": "0x3346",
+      "bytes": 13126,
+      "sha256": "c43a47116809965cce3e13910ff271e3a3492f83ad9faa32cc2edc91e2e667ac"
+    },
+    {
+      "offset_start": "0x334a",
+      "offset_end_exclusive": "0xd8f8",
+      "bytes": 42414,
+      "sha256": "80b8acb14d175bf6790060a5c83d10d256e8fe7831d7f575fd1ec618b320d162"
+    }
+  ],
+  "unchanged_subsystem_anchors": {
+    "vector_table": {
+      "offset_start": "0x0",
+      "offset_end_exclusive": "0x120",
+      "unchanged": true,
+      "sha256": "97de1ff148661f5e156458c4e30d557128889fb7c83bb62da3809cd8a10fc890"
+    },
+    "USB_control_reviewed_region": {
+      "offset_start": "0x4730",
+      "offset_end_exclusive": "0x4b7e",
+      "unchanged": true,
+      "sha256": "620d3652c13e4abfddabae933d1096feae631f772206e153589393170055355c"
+    },
+    "HDMI_CEC_reviewed_dispatcher_and_worker_region": {
+      "offset_start": "0x82cc",
+      "offset_end_exclusive": "0x8e12",
+      "unchanged": true,
+      "sha256": "bc2d63b398734b3dc727f144914afcb1bbafb887fafe2c56aa37a3f9bd962c31"
+    },
+    "audio_routing_reviewed_region": {
+      "offset_start": "0x1fb4",
+      "offset_end_exclusive": "0x2164",
+      "unchanged": true,
+      "sha256": "c1c97b110a194be4ee476c12a1784b8f715dc0583154b321d696e78340781a86"
+    },
+    "digital_audio_DAC_DSP_coordination_reviewed_region": {
+      "offset_start": "0x5d92",
+      "offset_end_exclusive": "0x5eb0",
+      "unchanged": true,
+      "sha256": "243c725b5bc1b1515ae9b604046f6ec5cb790176cac0a63b5123845a084944ce"
+    },
+    "protection_reviewed_region": {
+      "offset_start": "0x3a40",
+      "offset_end_exclusive": "0x3b70",
+      "unchanged": true,
+      "sha256": "b6156d47ff8042c85515fcce3e939e009f232340ebed0c3c7287d315907a6776"
+    },
+    "power_reviewed_region": {
+      "offset_start": "0x850",
+      "offset_end_exclusive": "0xbe0",
+      "unchanged": true,
+      "sha256": "bcd19d0b9cac99eb666ffbfb8ecd313b9e4385c4429d8b63ffc75c234a10b55a"
+    },
+    "Bluetooth_reviewed_region": {
+      "offset_start": "0x3c38",
+      "offset_end_exclusive": "0x4578",
+      "unchanged": true,
+      "sha256": "4855692bcf5454950590a8a86efd8524cc638cf349dc9dc2106ace028bd1270e"
+    },
+    "NVRAM_pack_restore_save_code": {
+      "offset_start": "0x54f0",
+      "offset_end_exclusive": "0x59a0",
+      "unchanged": true,
+      "sha256": "a575d195b5d7cfde998c9b1f9ffb00d81db1f08bace886b60308f86e23947367"
+    },
+    "NVRAM_page_literals": {
+      "offset_start": "0xb1a4",
+      "offset_end_exclusive": "0xb1ac",
+      "unchanged": true,
+      "sha256": "947fa6150ff1a033ab49c40118ed3b895ac1ddce854a574ce61dc391b9f12edd"
+    },
+    "factory_source_default": {
+      "offset_start": "0x9a94",
+      "offset_end_exclusive": "0x9a9c",
+      "unchanged": true,
+      "sha256": "92373c7e67f939d45492afa5dda2c2364e7f2730cc8e287af74391d28178f11e"
+    },
+    "front_panel_source_reviewed_region": {
+      "offset_start": "0x10f4",
+      "offset_end_exclusive": "0x136c",
+      "unchanged": true,
+      "sha256": "83629dcdbdbce7151d62797efbcda00aeac95c07513a854eeb2ceb3f8d25fc76"
+    },
+    "source_worker_request": {
+      "offset_start": "0x2e64",
+      "offset_end_exclusive": "0x2f76",
+      "unchanged": true,
+      "sha256": "9def03ed17e1ed5c6822304d527e40710d2e9af38205bd18d05ca170cd825aee"
+    },
+    "IR_decoder_and_event_generator": {
+      "offset_start": "0xc5a2",
+      "offset_end_exclusive": "0xc7c6",
+      "unchanged": true,
+      "sha256": "2a61c73e7f541ddf71c96bfc38e5f27acfce071485164968d3a36b8537c2003e"
+    },
+    "IR_command_table": {
+      "offset_start": "0xcb68",
+      "offset_end_exclusive": "0xcbb0",
+      "unchanged": true,
+      "sha256": "a1bcbbbc23b89761bb6b9c982a2a26423daa51f653624006842286089769b1d9"
+    },
+    "version_string": {
+      "offset_start": "0xcea0",
+      "offset_end_exclusive": "0xceb0",
+      "unchanged": true,
+      "sha256": "ecb92f0bfa782b28a6a9addc8b0462ad21fcb70c49b3e4408710422f613eb03a"
+    },
+    "runtime_compressed_tail": {
+      "offset_start": "0xd6fc",
+      "offset_end_exclusive": "0xd8f8",
+      "unchanged": true,
+      "sha256": "9f2c69edc7ae1327612274e3aa88ecac4045b1df9a1eaf6463c96edd7ac817e3"
+    }
+  },
+  "fallback_differential_cases": 60,
+  "active_handler_cases": [
+    {
+      "event": "0x5017",
+      "source": 1,
+      "initial_sp": "0x20001fb8",
+      "observed_stack_values": [
+        "0x20001fb0",
+        "0x20001fb8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x5017",
+      "source": 1,
+      "initial_sp": "0x20001fa8",
+      "observed_stack_values": [
+        "0x20001fa0",
+        "0x20001fa8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x5018",
+      "source": 5,
+      "initial_sp": "0x20001fb8",
+      "observed_stack_values": [
+        "0x20001fb0",
+        "0x20001fb8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x5018",
+      "source": 5,
+      "initial_sp": "0x20001fa8",
+      "observed_stack_values": [
+        "0x20001fa0",
+        "0x20001fa8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x5019",
+      "source": 6,
+      "initial_sp": "0x20001fb8",
+      "observed_stack_values": [
+        "0x20001fb0",
+        "0x20001fb8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x5019",
+      "source": 6,
+      "initial_sp": "0x20001fa8",
+      "observed_stack_values": [
+        "0x20001fa0",
+        "0x20001fa8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x501a",
+      "source": 7,
+      "initial_sp": "0x20001fb8",
+      "observed_stack_values": [
+        "0x20001fb0",
+        "0x20001fb8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x501a",
+      "source": 7,
+      "initial_sp": "0x20001fa8",
+      "observed_stack_values": [
+        "0x20001fa0",
+        "0x20001fa8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x501b",
+      "source": 3,
+      "initial_sp": "0x20001fb8",
+      "observed_stack_values": [
+        "0x20001fb0",
+        "0x20001fb8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x501b",
+      "source": 3,
+      "initial_sp": "0x20001fa8",
+      "observed_stack_values": [
+        "0x20001fa0",
+        "0x20001fa8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x501c",
+      "source": 2,
+      "initial_sp": "0x20001fb8",
+      "observed_stack_values": [
+        "0x20001fb0",
+        "0x20001fb8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x501c",
+      "source": 2,
+      "initial_sp": "0x20001fa8",
+      "observed_stack_values": [
+        "0x20001fa0",
+        "0x20001fa8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x501d",
+      "source": 4,
+      "initial_sp": "0x20001fb8",
+      "observed_stack_values": [
+        "0x20001fb0",
+        "0x20001fb8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x501d",
+      "source": 4,
+      "initial_sp": "0x20001fa8",
+      "observed_stack_values": [
+        "0x20001fa0",
+        "0x20001fa8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x501e",
+      "source": 0,
+      "initial_sp": "0x20001fb8",
+      "observed_stack_values": [
+        "0x20001fb0",
+        "0x20001fb8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    },
+    {
+      "event": "0x501e",
+      "source": 0,
+      "initial_sp": "0x20001fa8",
+      "observed_stack_values": [
+        "0x20001fa0",
+        "0x20001fa8"
+      ],
+      "housekeeping_calls": 1,
+      "exit": "0x080134d4"
+    }
+  ],
+  "stack_alignment_bytes_at_every_executed_handler_instruction": 8,
+  "runtime_versions": {
+    "python": "3.14.5",
+    "capstone_binding": "5.0.7",
+    "keystone_binding": "0.9.2",
+    "unicorn_binding": "2.1.4"
+  },
+  "hardware_performed": false,
+  "updater_attempt_performed": false,
+  "limits": [
+    "Named subsystem ranges are reviewed anchors, not a complete reverse engineering of every subsystem.",
+    "All original bytes outside the hook are independently equal, including unclassified code/data.",
+    "NVRAM layout code/literals are identical; physical NVRAM pages are absent from the supplied image.",
+    "Housekeeping was stubbed in local handler experiments with arbitrary caller-saved register clobbering.",
+    "Full dispatcher/worker behavior is covered by the separate primary verifier, not this local ABI experiment.",
+    "Physical flash identity, updater acceptance, timing, analog behavior, external USB firmware and recovery are not measured here."
+  ]
+}

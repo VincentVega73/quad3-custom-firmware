@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "release": "SK2-RC2",
+  "status": "PASS",
+  "scope": "Static binary qualification; separate emulator and hardware validation required",
+  "original_sha256": "7dff59e986643543c28c7f71c1f43f78c936867b25b078e0c1bd0ea5a6fe3853",
+  "candidate_sha256": "08555b7437781bcef803f6469eb56428aa1dc30716a262938f7b211a0e863146",
+  "candidate_size": 55668,
+  "last_address": "0x801d973",
+  "end_exclusive": "0x801d974",
+  "remaining_bytes_under_minimum_compatible_model": 9868,
+  "changed_ranges": [
+    {
+      "offset": "0x3346",
+      "end_exclusive": "0x334a"
+    },
+    {
+      "offset": "0xd8f8",
+      "end_exclusive": "0xd974"
+    }
+  ],
+  "decoded_wide_branches": [
+    {
+      "address": "0x8013346",
+      "target": "0x801d8f8",
+      "purpose": "handler entry"
+    },
+    {
+      "address": "0x801d940",
+      "target": "0x801334a",
+      "purpose": "stock fallback"
+    },
+    {
+      "address": "0x801d964",
+      "target": "0x80131f8",
+      "purpose": "housekeeping call"
+    },
+    {
+      "address": "0x801d96c",
+      "target": "0x80134d4",
+      "purpose": "native source tail"
+    }
+  ],
+  "checks": {
+    "original_size_hash_hook_and_decoder_pairs": true,
+    "candidate_size_and_golden_hash": true,
+    "vector_table_unchanged": true,
+    "hook_and_handler_exact": true,
+    "no_unexpected_stock_changes": true,
+    "deterministic_rebuild": true,
+    "flash_boundary": true,
+    "wide_branch_targets": true,
+    "literal_value_and_alignment": true
+  },
+  "instruction_emulation": "Not performed by this tool; see tests/local/",
+  "physical_rc2_tested": false,
+  "actual_mcu_identification": "Not physically read; flash boundary is a minimum compatible model"
+}

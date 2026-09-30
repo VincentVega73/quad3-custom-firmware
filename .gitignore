@@ -1,0 +1,35 @@
+# Vendor images and local generated firmware must never enter Git history.
+*.bin
+firmware/
+vendor/
+dumps/
+generated/
+
+# Archives may contain original or modified firmware.
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Local Python environment and test output.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local credentials, editor state, and operating-system files.
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Any future non-proprietary binary fixture needs an explicit, reviewed exception.

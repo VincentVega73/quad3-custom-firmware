@@ -1,0 +1,4991 @@
+{
+  "status": "PASS",
+  "original_sha256": "7dff59e986643543c28c7f71c1f43f78c936867b25b078e0c1bd0ea5a6fe3853",
+  "patched_sha256": "08555b7437781bcef803f6469eb56428aa1dc30716a262938f7b211a0e863146",
+  "native_source_full_transition_equivalence_cases": 1280,
+  "repeated_completed_requests": [
+    {
+      "sequence": "USB -> USB",
+      "ready_flag": 0,
+      "runs": [
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x1"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x800"
+                ],
+                [
+                  "0x8014b9e",
+                  "0x44440003"
+                ],
+                [
+                  "0x8014cc6",
+                  "0x0"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x1"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x800"
+                ],
+                [
+                  "0x8014b9e",
+                  "0x44440003"
+                ],
+                [
+                  "0x8014cc6",
+                  "0x0"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "USB -> USB",
+      "ready_flag": 1,
+      "runs": [
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        },
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 1,
+                "applied": 1,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "AUX1 -> AUX1",
+      "ready_flag": 0,
+      "runs": [
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x5"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x200"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x5"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x200"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x4"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "AUX1 -> AUX1",
+      "ready_flag": 1,
+      "runs": [
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        },
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 5,
+                "applied": 5,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "AUX2 -> AUX2",
+      "ready_flag": 0,
+      "runs": [
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x6"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x400"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x6"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x400"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x4"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "AUX2 -> AUX2",
+      "ready_flag": 1,
+      "runs": [
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        },
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 6,
+                "applied": 6,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "Phono -> Phono",
+      "ready_flag": 0,
+      "runs": [
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x7"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x100"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x7"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x100"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x4"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "Phono -> Phono",
+      "ready_flag": 1,
+      "runs": [
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        },
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 7,
+                "applied": 7,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "Coax -> Coax",
+      "ready_flag": 0,
+      "runs": [
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x3"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x880"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x0"
+                ],
+                [
+                  "0x8014b9e",
+                  "0x0"
+                ],
+                [
+                  "0x8014cc6",
+                  "0x0"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x3"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x880"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x0"
+                ],
+                [
+                  "0x8014b9e",
+                  "0x0"
+                ],
+                [
+                  "0x8014cc6",
+                  "0x0"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "Coax -> Coax",
+      "ready_flag": 1,
+      "runs": [
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        },
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 3,
+                "applied": 3,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "Optical -> Optical",
+      "ready_flag": 0,
+      "runs": [
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x2"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x800"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x0"
+                ],
+                [
+                  "0x8014b9e",
+                  "0x0"
+                ],
+                [
+                  "0x8014cc6",
+                  "0x0"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x2"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x800"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x0"
+                ],
+                [
+                  "0x8014b9e",
+                  "0x0"
+                ],
+                [
+                  "0x8014cc6",
+                  "0x0"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "Optical -> Optical",
+      "ready_flag": 1,
+      "runs": [
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        },
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 2,
+                "applied": 2,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "ARC -> ARC",
+      "ready_flag": 0,
+      "runs": [
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x4"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x840"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x0"
+                ],
+                [
+                  "0x8014b9e",
+                  "0x0"
+                ],
+                [
+                  "0x8014cc6",
+                  "0x0"
+                ],
+                [
+                  "0x8018242",
+                  "0xc0"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x4"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x840"
+                ],
+                [
+                  "0x8011a0c",
+                  "0x0"
+                ],
+                [
+                  "0x8014b9e",
+                  "0x0"
+                ],
+                [
+                  "0x8014cc6",
+                  "0x0"
+                ],
+                [
+                  "0x8018242",
+                  "0xc0"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "ARC -> ARC",
+      "ready_flag": 1,
+      "runs": [
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        },
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 4,
+                "applied": 4,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "Bluetooth -> Bluetooth",
+      "ready_flag": 0,
+      "runs": [
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x0"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x800"
+                ],
+                [
+                  "0x8014b9e",
+                  "0x44440003"
+                ],
+                [
+                  "0x8014cc6",
+                  "0x1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "source_ticks": 160,
+          "steps": [
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 3,
+                "timer": 10,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 3,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 4,
+                "timer": 100,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 4,
+                "timer": 0,
+                "flags": 165,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 0,
+                "timer": 0,
+                "flags": 164,
+                "ready": 0,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": [
+                [
+                  "0x8015e9e",
+                  "0x0"
+                ],
+                [
+                  "0x8015e2c",
+                  "0x0"
+                ],
+                [
+                  "0x8011f40",
+                  "0x800"
+                ],
+                [
+                  "0x8014b9e",
+                  "0x44440003"
+                ],
+                [
+                  "0x8014cc6",
+                  "0x1"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sequence": "Bluetooth -> Bluetooth",
+      "ready_flag": 1,
+      "runs": [
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        },
+        {
+          "source_ticks": 50,
+          "steps": [
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 1,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 2,
+                "timer": 50,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            },
+            {
+              "before": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 2,
+                "timer": 0,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "after": {
+                "requested": 0,
+                "applied": 0,
+                "stage": 0,
+                "timer": 10,
+                "flags": 164,
+                "ready": 1,
+                "save_delay": 3,
+                "page": 4,
+                "power": 1
+              },
+              "calls": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "all_eight_source_cycle": [
+    {
+      "target": "USB",
+      "routing_word": "0x800",
+      "transition": {
+        "source_ticks": 160,
+        "steps": [
+          {
+            "before": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 1,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 2,
+              "timer": 50,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 2,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 3,
+              "timer": 10,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 3,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 4,
+              "timer": 100,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 4,
+              "timer": 0,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 1,
+              "applied": 1,
+              "stage": 0,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": [
+              [
+                "0x8015e9e",
+                "0x1"
+              ],
+              [
+                "0x8015e2c",
+                "0x0"
+              ],
+              [
+                "0x8011f40",
+                "0x800"
+              ],
+              [
+                "0x8014b9e",
+                "0x44440003"
+              ],
+              [
+                "0x8014cc6",
+                "0x0"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "target": "AUX1",
+      "routing_word": "0x200",
+      "transition": {
+        "source_ticks": 160,
+        "steps": [
+          {
+            "before": {
+              "requested": 5,
+              "applied": 1,
+              "stage": 1,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 5,
+              "applied": 1,
+              "stage": 2,
+              "timer": 50,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 5,
+              "applied": 1,
+              "stage": 2,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 5,
+              "applied": 1,
+              "stage": 3,
+              "timer": 10,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 5,
+              "applied": 1,
+              "stage": 3,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 5,
+              "applied": 1,
+              "stage": 4,
+              "timer": 100,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 5,
+              "applied": 1,
+              "stage": 4,
+              "timer": 0,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 5,
+              "applied": 5,
+              "stage": 0,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": [
+              [
+                "0x8015e9e",
+                "0x5"
+              ],
+              [
+                "0x8015e2c",
+                "0x0"
+              ],
+              [
+                "0x8011f40",
+                "0x200"
+              ],
+              [
+                "0x8011a0c",
+                "0x4"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "target": "AUX2",
+      "routing_word": "0x400",
+      "transition": {
+        "source_ticks": 160,
+        "steps": [
+          {
+            "before": {
+              "requested": 6,
+              "applied": 5,
+              "stage": 1,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 6,
+              "applied": 5,
+              "stage": 2,
+              "timer": 50,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 6,
+              "applied": 5,
+              "stage": 2,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 6,
+              "applied": 5,
+              "stage": 3,
+              "timer": 10,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 6,
+              "applied": 5,
+              "stage": 3,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 6,
+              "applied": 5,
+              "stage": 4,
+              "timer": 100,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 6,
+              "applied": 5,
+              "stage": 4,
+              "timer": 0,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 6,
+              "applied": 6,
+              "stage": 0,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": [
+              [
+                "0x8012b20",
+                "0x6"
+              ],
+              [
+                "0x8015e9e",
+                "0x6"
+              ],
+              [
+                "0x8015e2c",
+                "0x0"
+              ],
+              [
+                "0x8011f40",
+                "0x400"
+              ],
+              [
+                "0x8011a0c",
+                "0x4"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "target": "Phono",
+      "routing_word": "0x100",
+      "transition": {
+        "source_ticks": 160,
+        "steps": [
+          {
+            "before": {
+              "requested": 7,
+              "applied": 6,
+              "stage": 1,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 7,
+              "applied": 6,
+              "stage": 2,
+              "timer": 50,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 7,
+              "applied": 6,
+              "stage": 2,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 7,
+              "applied": 6,
+              "stage": 3,
+              "timer": 10,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 7,
+              "applied": 6,
+              "stage": 3,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 7,
+              "applied": 6,
+              "stage": 4,
+              "timer": 100,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 7,
+              "applied": 6,
+              "stage": 4,
+              "timer": 0,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 7,
+              "applied": 7,
+              "stage": 0,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": [
+              [
+                "0x8015e9e",
+                "0x7"
+              ],
+              [
+                "0x8015e2c",
+                "0x0"
+              ],
+              [
+                "0x8011f40",
+                "0x100"
+              ],
+              [
+                "0x8011a0c",
+                "0x4"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "target": "Coax",
+      "routing_word": "0x880",
+      "transition": {
+        "source_ticks": 160,
+        "steps": [
+          {
+            "before": {
+              "requested": 3,
+              "applied": 7,
+              "stage": 1,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 3,
+              "applied": 7,
+              "stage": 2,
+              "timer": 50,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 3,
+              "applied": 7,
+              "stage": 2,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 3,
+              "applied": 7,
+              "stage": 3,
+              "timer": 10,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 3,
+              "applied": 7,
+              "stage": 3,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 3,
+              "applied": 7,
+              "stage": 4,
+              "timer": 100,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 3,
+              "applied": 7,
+              "stage": 4,
+              "timer": 0,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 3,
+              "applied": 3,
+              "stage": 0,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": [
+              [
+                "0x8015e9e",
+                "0x3"
+              ],
+              [
+                "0x8015e2c",
+                "0x0"
+              ],
+              [
+                "0x8011f40",
+                "0x880"
+              ],
+              [
+                "0x8011a0c",
+                "0x0"
+              ],
+              [
+                "0x8014b9e",
+                "0x0"
+              ],
+              [
+                "0x8014cc6",
+                "0x0"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "target": "Optical",
+      "routing_word": "0x800",
+      "transition": {
+        "source_ticks": 160,
+        "steps": [
+          {
+            "before": {
+              "requested": 2,
+              "applied": 3,
+              "stage": 1,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 2,
+              "applied": 3,
+              "stage": 2,
+              "timer": 50,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 2,
+              "applied": 3,
+              "stage": 2,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 2,
+              "applied": 3,
+              "stage": 3,
+              "timer": 10,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 2,
+              "applied": 3,
+              "stage": 3,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 2,
+              "applied": 3,
+              "stage": 4,
+              "timer": 100,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 2,
+              "applied": 3,
+              "stage": 4,
+              "timer": 0,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 2,
+              "applied": 2,
+              "stage": 0,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": [
+              [
+                "0x8015e9e",
+                "0x2"
+              ],
+              [
+                "0x8015e2c",
+                "0x0"
+              ],
+              [
+                "0x8011f40",
+                "0x800"
+              ],
+              [
+                "0x8011a0c",
+                "0x0"
+              ],
+              [
+                "0x8014b9e",
+                "0x0"
+              ],
+              [
+                "0x8014cc6",
+                "0x0"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "target": "ARC",
+      "routing_word": "0x840",
+      "transition": {
+        "source_ticks": 160,
+        "steps": [
+          {
+            "before": {
+              "requested": 4,
+              "applied": 2,
+              "stage": 1,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 4,
+              "applied": 2,
+              "stage": 2,
+              "timer": 50,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 4,
+              "applied": 2,
+              "stage": 2,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 4,
+              "applied": 2,
+              "stage": 3,
+              "timer": 10,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 4,
+              "applied": 2,
+              "stage": 3,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 4,
+              "applied": 2,
+              "stage": 4,
+              "timer": 100,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 4,
+              "applied": 2,
+              "stage": 4,
+              "timer": 0,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 4,
+              "applied": 4,
+              "stage": 0,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": [
+              [
+                "0x8015e9e",
+                "0x4"
+              ],
+              [
+                "0x8015e2c",
+                "0x0"
+              ],
+              [
+                "0x8011f40",
+                "0x840"
+              ],
+              [
+                "0x8011a0c",
+                "0x0"
+              ],
+              [
+                "0x8014b9e",
+                "0x0"
+              ],
+              [
+                "0x8014cc6",
+                "0x0"
+              ],
+              [
+                "0x8018242",
+                "0xc0"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "target": "Bluetooth",
+      "routing_word": "0x840",
+      "transition": {
+        "source_ticks": 160,
+        "steps": [
+          {
+            "before": {
+              "requested": 0,
+              "applied": 4,
+              "stage": 1,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 0,
+              "applied": 4,
+              "stage": 2,
+              "timer": 50,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 0,
+              "applied": 4,
+              "stage": 2,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 0,
+              "applied": 4,
+              "stage": 3,
+              "timer": 10,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 0,
+              "applied": 4,
+              "stage": 3,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 0,
+              "applied": 4,
+              "stage": 4,
+              "timer": 100,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 0,
+              "applied": 4,
+              "stage": 4,
+              "timer": 0,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 0,
+              "applied": 0,
+              "stage": 0,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": [
+              [
+                "0x8015e9e",
+                "0x0"
+              ],
+              [
+                "0x8015e2c",
+                "0x0"
+              ],
+              [
+                "0x8011f40",
+                "0x840"
+              ],
+              [
+                "0x8014b9e",
+                "0x44440003"
+              ],
+              [
+                "0x8014cc6",
+                "0x1"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "target": "USB",
+      "routing_word": "0x840",
+      "transition": {
+        "source_ticks": 160,
+        "steps": [
+          {
+            "before": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 1,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 2,
+              "timer": 50,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 2,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 3,
+              "timer": 10,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 3,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 4,
+              "timer": 100,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": []
+          },
+          {
+            "before": {
+              "requested": 1,
+              "applied": 0,
+              "stage": 4,
+              "timer": 0,
+              "flags": 165,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "after": {
+              "requested": 1,
+              "applied": 1,
+              "stage": 0,
+              "timer": 0,
+              "flags": 164,
+              "ready": 0,
+              "save_delay": 3,
+              "page": 4,
+              "power": 1
+            },
+            "calls": [
+              [
+                "0x8015e9e",
+                "0x1"
+              ],
+              [
+                "0x8015e2c",
+                "0x0"
+              ],
+              [
+                "0x8011f40",
+                "0x840"
+              ],
+              [
+                "0x8014b9e",
+                "0x44440003"
+              ],
+              [
+                "0x8014cc6",
+                "0x0"
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "in_flight_latest_request_cases": 1024,
+  "all_initial_and_target_source_pairs": 128,
+  "rapid_repeated_requests": [
+    {
+      "source": "USB",
+      "requests": 3,
+      "source_ticks": 160
+    },
+    {
+      "source": "AUX1",
+      "requests": 3,
+      "source_ticks": 160
+    },
+    {
+      "source": "AUX2",
+      "requests": 3,
+      "source_ticks": 160
+    },
+    {
+      "source": "Phono",
+      "requests": 3,
+      "source_ticks": 160
+    },
+    {
+      "source": "Coax",
+      "requests": 3,
+      "source_ticks": 160
+    },
+    {
+      "source": "Optical",
+      "requests": 3,
+      "source_ticks": 160
+    },
+    {
+      "source": "ARC",
+      "requests": 3,
+      "source_ticks": 160
+    },
+    {
+      "source": "Bluetooth",
+      "requests": 3,
+      "source_ticks": 160
+    }
+  ],
+  "immediate_different_command_pairs": [
+    [
+      "USB",
+      "AUX1"
+    ],
+    [
+      "USB",
+      "AUX2"
+    ],
+    [
+      "USB",
+      "Phono"
+    ],
+    [
+      "USB",
+      "Coax"
+    ],
+    [
+      "USB",
+      "Optical"
+    ],
+    [
+      "USB",
+      "ARC"
+    ],
+    [
+      "USB",
+      "Bluetooth"
+    ],
+    [
+      "AUX1",
+      "USB"
+    ],
+    [
+      "AUX1",
+      "AUX2"
+    ],
+    [
+      "AUX1",
+      "Phono"
+    ],
+    [
+      "AUX1",
+      "Coax"
+    ],
+    [
+      "AUX1",
+      "Optical"
+    ],
+    [
+      "AUX1",
+      "ARC"
+    ],
+    [
+      "AUX1",
+      "Bluetooth"
+    ],
+    [
+      "AUX2",
+      "USB"
+    ],
+    [
+      "AUX2",
+      "AUX1"
+    ],
+    [
+      "AUX2",
+      "Phono"
+    ],
+    [
+      "AUX2",
+      "Coax"
+    ],
+    [
+      "AUX2",
+      "Optical"
+    ],
+    [
+      "AUX2",
+      "ARC"
+    ],
+    [
+      "AUX2",
+      "Bluetooth"
+    ],
+    [
+      "Phono",
+      "USB"
+    ],
+    [
+      "Phono",
+      "AUX1"
+    ],
+    [
+      "Phono",
+      "AUX2"
+    ],
+    [
+      "Phono",
+      "Coax"
+    ],
+    [
+      "Phono",
+      "Optical"
+    ],
+    [
+      "Phono",
+      "ARC"
+    ],
+    [
+      "Phono",
+      "Bluetooth"
+    ],
+    [
+      "Coax",
+      "USB"
+    ],
+    [
+      "Coax",
+      "AUX1"
+    ],
+    [
+      "Coax",
+      "AUX2"
+    ],
+    [
+      "Coax",
+      "Phono"
+    ],
+    [
+      "Coax",
+      "Optical"
+    ],
+    [
+      "Coax",
+      "ARC"
+    ],
+    [
+      "Coax",
+      "Bluetooth"
+    ],
+    [
+      "Optical",
+      "USB"
+    ],
+    [
+      "Optical",
+      "AUX1"
+    ],
+    [
+      "Optical",
+      "AUX2"
+    ],
+    [
+      "Optical",
+      "Phono"
+    ],
+    [
+      "Optical",
+      "Coax"
+    ],
+    [
+      "Optical",
+      "ARC"
+    ],
+    [
+      "Optical",
+      "Bluetooth"
+    ],
+    [
+      "ARC",
+      "USB"
+    ],
+    [
+      "ARC",
+      "AUX1"
+    ],
+    [
+      "ARC",
+      "AUX2"
+    ],
+    [
+      "ARC",
+      "Phono"
+    ],
+    [
+      "ARC",
+      "Coax"
+    ],
+    [
+      "ARC",
+      "Optical"
+    ],
+    [
+      "ARC",
+      "Bluetooth"
+    ],
+    [
+      "Bluetooth",
+      "USB"
+    ],
+    [
+      "Bluetooth",
+      "AUX1"
+    ],
+    [
+      "Bluetooth",
+      "AUX2"
+    ],
+    [
+      "Bluetooth",
+      "Phono"
+    ],
+    [
+      "Bluetooth",
+      "Coax"
+    ],
+    [
+      "Bluetooth",
+      "Optical"
+    ],
+    [
+      "Bluetooth",
+      "ARC"
+    ]
+  ],
+  "power_and_protection_gate_cases": 176,
+  "persistence_save_restore_cases": [
+    {
+      "source": "USB",
+      "scheduler_values": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "programmed_words": [
+        [
+          "0xa000",
+          "0x10000"
+        ],
+        [
+          "0xa004",
+          "0x0"
+        ],
+        [
+          "0xa008",
+          "0x0"
+        ],
+        [
+          "0xa00c",
+          "0x0"
+        ],
+        [
+          "0xa010",
+          "0x0"
+        ],
+        [
+          "0xa014",
+          "0x0"
+        ],
+        [
+          "0xa018",
+          "0x0"
+        ]
+      ],
+      "restored_source": 1
+    },
+    {
+      "source": "AUX1",
+      "scheduler_values": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "programmed_words": [
+        [
+          "0xa000",
+          "0x50000"
+        ],
+        [
+          "0xa004",
+          "0x0"
+        ],
+        [
+          "0xa008",
+          "0x0"
+        ],
+        [
+          "0xa00c",
+          "0x0"
+        ],
+        [
+          "0xa010",
+          "0x0"
+        ],
+        [
+          "0xa014",
+          "0x0"
+        ],
+        [
+          "0xa018",
+          "0x0"
+        ]
+      ],
+      "restored_source": 5
+    },
+    {
+      "source": "AUX2",
+      "scheduler_values": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "programmed_words": [
+        [
+          "0xa000",
+          "0x60000"
+        ],
+        [
+          "0xa004",
+          "0x0"
+        ],
+        [
+          "0xa008",
+          "0x0"
+        ],
+        [
+          "0xa00c",
+          "0x0"
+        ],
+        [
+          "0xa010",
+          "0x0"
+        ],
+        [
+          "0xa014",
+          "0x0"
+        ],
+        [
+          "0xa018",
+          "0x0"
+        ]
+      ],
+      "restored_source": 6
+    },
+    {
+      "source": "Phono",
+      "scheduler_values": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "programmed_words": [
+        [
+          "0xa000",
+          "0x70000"
+        ],
+        [
+          "0xa004",
+          "0x0"
+        ],
+        [
+          "0xa008",
+          "0x0"
+        ],
+        [
+          "0xa00c",
+          "0x0"
+        ],
+        [
+          "0xa010",
+          "0x0"
+        ],
+        [
+          "0xa014",
+          "0x0"
+        ],
+        [
+          "0xa018",
+          "0x0"
+        ]
+      ],
+      "restored_source": 7
+    },
+    {
+      "source": "Coax",
+      "scheduler_values": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "programmed_words": [
+        [
+          "0xa000",
+          "0x30000"
+        ],
+        [
+          "0xa004",
+          "0x0"
+        ],
+        [
+          "0xa008",
+          "0x0"
+        ],
+        [
+          "0xa00c",
+          "0x0"
+        ],
+        [
+          "0xa010",
+          "0x0"
+        ],
+        [
+          "0xa014",
+          "0x0"
+        ],
+        [
+          "0xa018",
+          "0x0"
+        ]
+      ],
+      "restored_source": 3
+    },
+    {
+      "source": "Optical",
+      "scheduler_values": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "programmed_words": [
+        [
+          "0xa000",
+          "0x20000"
+        ],
+        [
+          "0xa004",
+          "0x0"
+        ],
+        [
+          "0xa008",
+          "0x0"
+        ],
+        [
+          "0xa00c",
+          "0x0"
+        ],
+        [
+          "0xa010",
+          "0x0"
+        ],
+        [
+          "0xa014",
+          "0x0"
+        ],
+        [
+          "0xa018",
+          "0x0"
+        ]
+      ],
+      "restored_source": 2
+    },
+    {
+      "source": "ARC",
+      "scheduler_values": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "programmed_words": [
+        [
+          "0xa000",
+          "0x40000"
+        ],
+        [
+          "0xa004",
+          "0x0"
+        ],
+        [
+          "0xa008",
+          "0x0"
+        ],
+        [
+          "0xa00c",
+          "0x0"
+        ],
+        [
+          "0xa010",
+          "0x0"
+        ],
+        [
+          "0xa014",
+          "0x0"
+        ],
+        [
+          "0xa018",
+          "0x0"
+        ]
+      ],
+      "restored_source": 4
+    },
+    {
+      "source": "Bluetooth",
+      "scheduler_values": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "programmed_words": [
+        [
+          "0xa000",
+          "0x0"
+        ],
+        [
+          "0xa004",
+          "0x0"
+        ],
+        [
+          "0xa008",
+          "0x0"
+        ],
+        [
+          "0xa00c",
+          "0x0"
+        ],
+        [
+          "0xa010",
+          "0x0"
+        ],
+        [
+          "0xa014",
+          "0x0"
+        ],
+        [
+          "0xa018",
+          "0x0"
+        ]
+      ],
+      "restored_source": 0
+    }
+  ],
+  "executed_code_ranges": [
+    [
+      "0x80132e8",
+      "0x8013a1c"
+    ],
+    [
+      "0x801a008",
+      "0x801aae4"
+    ],
+    [
+      "0x80145cc",
+      "0x8014662"
+    ],
+    [
+      "0x8014d30",
+      "0x8014d8e"
+    ],
+    [
+      "0x80130f6",
+      "0x8013118"
+    ],
+    [
+      "0x80131f8",
+      "0x8013296"
+    ],
+    [
+      "0x8012e64",
+      "0x8012f60"
+    ],
+    [
+      "0x8012f64",
+      "0x8012f76"
+    ],
+    [
+      "0x8012f8c",
+      "0x8013018"
+    ],
+    [
+      "0x8011fb4",
+      "0x8012162"
+    ],
+    [
+      "0x8016ef0",
+      "0x8016f4c"
+    ],
+    [
+      "0x801d8f8",
+      "0x801d970"
+    ],
+    [
+      "0x8014446",
+      "0x801444e"
+    ],
+    [
+      "0x801031a",
+      "0x801032a"
+    ],
+    [
+      "0x80105f4",
+      "0x8010604"
+    ],
+    [
+      "0x80154f0",
+      "0x801550c"
+    ],
+    [
+      "0x8015526",
+      "0x80159a0"
+    ]
+  ],
+  "stubbed_calls": [
+    {
+      "target": "0x8011a0c",
+      "description": "analog/digital downstream selection",
+      "callsites": [
+        "0x8012fc4",
+        "0x8012fcc",
+        "0x8012fd4",
+        "0x8012fdc",
+        "0x8012fec",
+        "0x8012ffc"
+      ]
+    },
+    {
+      "target": "0x8011f40",
+      "description": "routing register serial output",
+      "callsites": [
+        "0x8012000",
+        "0x801202c",
+        "0x8012068",
+        "0x80120a4",
+        "0x80120d8",
+        "0x8012104",
+        "0x8012130",
+        "0x801215c"
+      ]
+    },
+    {
+      "target": "0x8012b20",
+      "description": "AUX2 AV-direct boundary helper",
+      "callsites": [
+        "0x8012f20"
+      ]
+    },
+    {
+      "target": "0x8014b9e",
+      "description": "digital/USB coordination",
+      "callsites": [
+        "0x8012fb8",
+        "0x8012fe0",
+        "0x8012ff0",
+        "0x8013000",
+        "0x801300a"
+      ]
+    },
+    {
+      "target": "0x8014cc6",
+      "description": "digital/USB coordination",
+      "callsites": [
+        "0x8012fbc",
+        "0x8012fe4",
+        "0x8012ff4",
+        "0x8013004",
+        "0x8013012"
+      ]
+    },
+    {
+      "target": "0x8015e2c",
+      "description": "digital reconfiguration request",
+      "callsites": [
+        "0x8012f34"
+      ]
+    },
+    {
+      "target": "0x8015e9e",
+      "description": "digital reconfiguration request",
+      "callsites": [
+        "0x8012f30"
+      ]
+    },
+    {
+      "target": "0x8018242",
+      "description": "CEC command queue (captures argument 0xC0)",
+      "callsites": [
+        "0x8012f46"
+      ]
+    },
+    {
+      "target": "0x801abae",
+      "description": "flash unlock/control",
+      "callsites": [
+        "0x80157e0"
+      ]
+    },
+    {
+      "target": "0x801abce",
+      "description": "flash lock/control",
+      "callsites": [
+        "0x8015986"
+      ]
+    },
+    {
+      "target": "0x801acc0",
+      "description": "flash control/status setup",
+      "callsites": [
+        "0x80157e4"
+      ]
+    },
+    {
+      "target": "0x801b03c",
+      "description": "flash programming primitive; writes to simulated memory only",
+      "callsites": [
+        "0x801581a",
+        "0x8015856",
+        "0x801588e",
+        "0x80158ca",
+        "0x8015916",
+        "0x8015952",
+        "0x801597c"
+      ]
+    }
+  ],
+  "handler_alignment_instruction_checks": 58545,
+  "timer_model": {
+    "source_tick_code": "0x0801031A..0x08010328: EEB decremented only when nonzero",
+    "save_tick_code": "0x080105F4..0x08010602: FA7 decremented only when >=2",
+    "source_delays": [
+      50,
+      10,
+      100
+    ],
+    "elapsed_units": "firmware source-timer decrement opportunities; not asserted to be milliseconds",
+    "execution": "worker then one source-timer decrement, until idle; save ticks exercised separately"
+  },
+  "limitations": [
+    "Peripheral/analog behavior, real flash erase/programming and power-loss persistence are not emulated.",
+    "No bootloader, USB UPDATE, signature acceptance or physical MCU capacity is tested here.",
+    "No interrupt preemption or concurrent CEC/USB/power/protection task scheduling is emulated.",
+    "Power/protection checks exercise dispatcher guards with fixed RAM states, not physical fault sensing.",
+    "Zero-return ABI stubs and enumerated RAM states limit conclusions to the paths listed above."
+  ],
+  "candidate_size": 55668,
+  "runtime_versions": {
+    "python": "3.14.5",
+    "capstone_binding": "5.0.7",
+    "keystone_binding": "0.9.2",
+    "unicorn_binding": "2.1.4"
+  },
+  "startup_ram_rebuilt_in_memory": true,
+  "runtime_seconds": 310.07
+}
