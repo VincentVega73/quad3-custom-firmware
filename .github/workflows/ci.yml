@@ -1,0 +1,27 @@
+name: Public source checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.11', '3.14']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Check Python syntax
+        run: python -m compileall -q firmware_patch.py qualify_rc2.py tests
+      - name: Run public tests without vendor firmware
+        run: python -m unittest discover -s tests -v
+      - name: Check optimized-mode guards
+        run: python -O -m unittest discover -s tests -v
