@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "release": {
+    "name": "SK2-RC2",
+    "status": "release_candidate",
+    "blockers": []
+  },
+  "original_sha256": "7dff59e986643543c28c7f71c1f43f78c936867b25b078e0c1bd0ea5a6fe3853",
+  "protocol": "NEC Extended",
+  "remote_mode": "AMP / A",
+  "address_convention": "Wire bytes 32 EE; some libraries display little-endian 0xEE32; stock MSB-shifting decoder accumulates 0x4C77.",
+  "evidence_classes": {
+    "physical_capture_confirmed": "Owner-supplied physical capture values; no independent re-capture during this task.",
+    "confirmed_from_firmware": "Read/checked against the exact original image or executed instructions.",
+    "inferred": "Derived model or interpretation, not a physical measurement.",
+    "unverified": "Evidence missing; must not be filled by sequence extrapolation."
+  },
+  "cd_bank": {
+    "wire_address_bytes": [
+      "0x33",
+      "0xFD"
+    ],
+    "decoder_address": "0xCCBF",
+    "targeted_by_sk2": false
+  },
+  "buttons": [
+    {
+      "button": "0",
+      "source_id": 1,
+      "source": "USB",
+      "event": "0x5017",
+      "internal_id": 23,
+      "nec_address_bytes": [
+        "0x32",
+        "0xEE"
+      ],
+      "nec_command": "0x33",
+      "nec_inverse_command": "0xCC",
+      "wire_bytes": "32 EE 33 CC",
+      "decoder_address": "0x4C77",
+      "decoder_command": "0xCC",
+      "table_file_offset": "0xCB82",
+      "physical_mapping_status": "physical_capture_confirmed",
+      "firmware_status": "confirmed",
+      "stock_behavior": "Accepted and mapped; no functional case found in the reviewed dispatcher and prehandlers. Not an exhaustive hardware claim.",
+      "sk1_hardware_action": "USB",
+      "sk2_hardware_tested": false,
+      "provenance": {
+        "physical": "Owner-supplied VS1838B/ESP32 capture results, AMP/A mode, received 2026-09-30; original capture session date and tool version not supplied.",
+        "firmware": "Exact stock SHA256 and command table bytes resolved by bit reversal and lookup; no numerical-label extrapolation.",
+        "sk1": "Owner-reported installation and direct-source hardware test on one unit.",
+        "capture_log_artifact": null
+      }
+    },
+    {
+      "button": "1",
+      "source_id": 5,
+      "source": "AUX1",
+      "event": "0x5018",
+      "internal_id": 24,
+      "nec_address_bytes": [
+        "0x32",
+        "0xEE"
+      ],
+      "nec_command": "0x23",
+      "nec_inverse_command": "0xDC",
+      "wire_bytes": "32 EE 23 DC",
+      "decoder_address": "0x4C77",
+      "decoder_command": "0xC4",
+      "table_file_offset": "0xCB84",
+      "physical_mapping_status": "physical_capture_confirmed",
+      "firmware_status": "confirmed",
+      "stock_behavior": "Accepted and mapped; no functional case found in the reviewed dispatcher and prehandlers. Not an exhaustive hardware claim.",
+      "sk1_hardware_action": "AUX1",
+      "sk2_hardware_tested": false,
+      "provenance": {
+        "physical": "Owner-supplied VS1838B/ESP32 capture results, AMP/A mode, received 2026-09-30; original capture session date and tool version not supplied.",
+        "firmware": "Exact stock SHA256 and command table bytes resolved by bit reversal and lookup; no numerical-label extrapolation.",
+        "sk1": "Owner-reported installation and direct-source hardware test on one unit.",
+        "capture_log_artifact": null
+      }
+    },
+    {
+      "button": "2",
+      "source_id": 6,
+      "source": "AUX2",
+      "event": "0x5019",
+      "internal_id": 25,
+      "nec_address_bytes": [
+        "0x32",
+        "0xEE"
+      ],
+      "nec_command": "0x24",
+      "nec_inverse_command": "0xDB",
+      "wire_bytes": "32 EE 24 DB",
+      "decoder_address": "0x4C77",
+      "decoder_command": "0x24",
+      "table_file_offset": "0xCB86",
+      "physical_mapping_status": "physical_capture_confirmed",
+      "firmware_status": "confirmed",
+      "stock_behavior": "Accepted and mapped; no functional case found in the reviewed dispatcher and prehandlers. Not an exhaustive hardware claim.",
+      "sk1_hardware_action": "ARC",
+      "sk2_hardware_tested": false,
+      "provenance": {
+        "physical": "Owner-supplied VS1838B/ESP32 capture results, AMP/A mode, received 2026-09-30; original capture session date and tool version not supplied.",
+        "firmware": "Exact stock SHA256 and command table bytes resolved by bit reversal and lookup; no numerical-label extrapolation.",
+        "sk1": "Owner-reported installation and direct-source hardware test on one unit.",
+        "capture_log_artifact": null
+      }
+    },
+    {
+      "button": "3",
+      "source_id": 7,
+      "source": "Phono",
+      "event": "0x501A",
+      "internal_id": 26,
+      "nec_address_bytes": [
+        "0x32",
+        "0xEE"
+      ],
+      "nec_command": "0x25",
+      "nec_inverse_command": "0xDA",
+      "wire_bytes": "32 EE 25 DA",
+      "decoder_address": "0x4C77",
+      "decoder_command": "0xA4",
+      "table_file_offset": "0xCB88",
+      "physical_mapping_status": "physical_capture_confirmed",
+      "firmware_status": "confirmed",
+      "stock_behavior": "Accepted and mapped; no functional case found in the reviewed dispatcher and prehandlers. Not an exhaustive hardware claim.",
+      "sk1_hardware_action": null,
+      "sk2_hardware_tested": false,
+      "provenance": {
+        "physical": "Owner-supplied VS1838B/ESP32 capture results, AMP/A mode, received 2026-09-30; original capture session date and tool version not supplied.",
+        "firmware": "Exact stock SHA256 and command table bytes resolved by bit reversal and lookup; no numerical-label extrapolation.",
+        "sk1": "Not assigned/tested in SK1.",
+        "capture_log_artifact": null
+      }
+    },
+    {
+      "button": "4",
+      "source_id": 3,
+      "source": "Coax",
+      "event": "0x501B",
+      "internal_id": 27,
+      "nec_address_bytes": [
+        "0x32",
+        "0xEE"
+      ],
+      "nec_command": "0x26",
+      "nec_inverse_command": "0xD9",
+      "wire_bytes": "32 EE 26 D9",
+      "decoder_address": "0x4C77",
+      "decoder_command": "0x64",
+      "table_file_offset": "0xCB8A",
+      "physical_mapping_status": "physical_capture_confirmed",
+      "firmware_status": "confirmed",
+      "stock_behavior": "Accepted and mapped; no functional case found in the reviewed dispatcher and prehandlers. Not an exhaustive hardware claim.",
+      "sk1_hardware_action": null,
+      "sk2_hardware_tested": false,
+      "provenance": {
+        "physical": "Owner-supplied VS1838B/ESP32 capture results, AMP/A mode, received 2026-09-30; original capture session date and tool version not supplied.",
+        "firmware": "Exact stock SHA256 and command table bytes resolved by bit reversal and lookup; no numerical-label extrapolation.",
+        "sk1": "Not assigned/tested in SK1.",
+        "capture_log_artifact": null
+      }
+    },
+    {
+      "button": "5",
+      "source_id": 2,
+      "source": "Optical",
+      "event": "0x501C",
+      "internal_id": 28,
+      "nec_address_bytes": [
+        "0x32",
+        "0xEE"
+      ],
+      "nec_command": "0x27",
+      "nec_inverse_command": "0xD8",
+      "wire_bytes": "32 EE 27 D8",
+      "decoder_address": "0x4C77",
+      "decoder_command": "0xE4",
+      "table_file_offset": "0xCB8C",
+      "physical_mapping_status": "physical_capture_confirmed",
+      "firmware_status": "confirmed",
+      "stock_behavior": "Accepted and mapped; no functional case found in the reviewed dispatcher and prehandlers. Not an exhaustive hardware claim.",
+      "sk1_hardware_action": null,
+      "sk2_hardware_tested": false,
+      "provenance": {
+        "physical": "Owner-supplied VS1838B/ESP32 capture results, AMP/A mode, received 2026-09-30; original capture session date and tool version not supplied.",
+        "firmware": "Exact stock SHA256 and command table bytes resolved by bit reversal and lookup; no numerical-label extrapolation.",
+        "sk1": "Not assigned/tested in SK1.",
+        "capture_log_artifact": null
+      }
+    },
+    {
+      "button": "6",
+      "source_id": 4,
+      "source": "ARC",
+      "event": "0x501D",
+      "internal_id": 29,
+      "nec_address_bytes": [
+        "0x32",
+        "0xEE"
+      ],
+      "nec_command": "0x28",
+      "nec_inverse_command": "0xD7",
+      "wire_bytes": "32 EE 28 D7",
+      "decoder_address": "0x4C77",
+      "decoder_command": "0x14",
+      "table_file_offset": "0xCB8E",
+      "physical_mapping_status": "physical_capture_confirmed",
+      "firmware_status": "confirmed",
+      "stock_behavior": "Accepted and mapped; no functional case found in the reviewed dispatcher and prehandlers. Not an exhaustive hardware claim.",
+      "sk1_hardware_action": null,
+      "sk2_hardware_tested": false,
+      "provenance": {
+        "physical": "Owner-supplied VS1838B/ESP32 capture results, AMP/A mode, received 2026-09-30; original capture session date and tool version not supplied.",
+        "firmware": "Exact stock SHA256 and command table bytes resolved by bit reversal and lookup; no numerical-label extrapolation.",
+        "sk1": "Not assigned/tested in SK1.",
+        "capture_log_artifact": null
+      }
+    },
+    {
+      "button": "7",
+      "source_id": 0,
+      "source": "Bluetooth",
+      "event": "0x501E",
+      "internal_id": 30,
+      "nec_address_bytes": [
+        "0x32",
+        "0xEE"
+      ],
+      "nec_command": "0x29",
+      "nec_inverse_command": "0xD6",
+      "wire_bytes": "32 EE 29 D6",
+      "decoder_address": "0x4C77",
+      "decoder_command": "0x94",
+      "table_file_offset": "0xCB90",
+      "physical_mapping_status": "physical_capture_confirmed",
+      "firmware_status": "confirmed",
+      "stock_behavior": "Accepted and mapped; no functional case found in the reviewed dispatcher and prehandlers. Not an exhaustive hardware claim.",
+      "sk1_hardware_action": null,
+      "sk2_hardware_tested": false,
+      "provenance": {
+        "physical": "Owner-supplied VS1838B/ESP32 capture results, AMP/A mode, received 2026-09-30; original capture session date and tool version not supplied.",
+        "firmware": "Exact stock SHA256 and command table bytes resolved by bit reversal and lookup; no numerical-label extrapolation.",
+        "sk1": "Not assigned/tested in SK1.",
+        "capture_log_artifact": null
+      }
+    },
+    {
+      "button": "8",
+      "source_id": null,
+      "source": null,
+      "event": null,
+      "internal_id": null,
+      "nec_address_bytes": null,
+      "nec_command": null,
+      "nec_inverse_command": null,
+      "wire_bytes": null,
+      "decoder_address": null,
+      "decoder_command": null,
+      "table_file_offset": null,
+      "physical_mapping_status": "reserved",
+      "firmware_status": "not_applicable",
+      "stock_behavior": "Physical mapping not supplied; existing behavior must remain unchanged.",
+      "sk1_hardware_action": null,
+      "sk2_hardware_tested": false,
+      "provenance": {
+        "physical": "No capture supplied; reserved by the SK2 specification."
+      }
+    },
+    {
+      "button": "9",
+      "source_id": null,
+      "source": null,
+      "event": null,
+      "internal_id": null,
+      "nec_address_bytes": null,
+      "nec_command": null,
+      "nec_inverse_command": null,
+      "wire_bytes": null,
+      "decoder_address": null,
+      "decoder_command": null,
+      "table_file_offset": null,
+      "physical_mapping_status": "reserved",
+      "firmware_status": "not_applicable",
+      "stock_behavior": "Physical mapping not supplied; existing behavior must remain unchanged.",
+      "sk1_hardware_action": null,
+      "sk2_hardware_tested": false,
+      "provenance": {
+        "physical": "No capture supplied; reserved by the SK2 specification."
+      }
+    }
+  ]
+}

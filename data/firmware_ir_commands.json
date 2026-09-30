@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "original_sha256": "7dff59e986643543c28c7f71c1f43f78c936867b25b078e0c1bd0ea5a6fe3853",
+  "evidence_class": "confirmed_from_firmware",
+  "scope": "Semantic command-table observations; physical labels are established separately in ir_mapping.json.",
+  "entries": [
+    {
+      "file_offset": "0xcb68",
+      "decoder_command": "0x80",
+      "nec_command": "0x01",
+      "internal_id": 7,
+      "stock_behavior": "Power/standby",
+      "code_evidence_addresses": [
+        "08013306",
+        "0801342a"
+      ]
+    },
+    {
+      "file_offset": "0xcb6a",
+      "decoder_command": "0x40",
+      "nec_command": "0x02",
+      "internal_id": 8,
+      "stock_behavior": "Mute",
+      "code_evidence_addresses": [
+        "08013434"
+      ]
+    },
+    {
+      "file_offset": "0xcb6c",
+      "decoder_command": "0x10",
+      "nec_command": "0x08",
+      "internal_id": 13,
+      "stock_behavior": "Context: BT play/pause, USB transport, menu confirm",
+      "code_evidence_addresses": [
+        "080145cc",
+        "08014d30",
+        "0801a008"
+      ]
+    },
+    {
+      "file_offset": "0xcb6e",
+      "decoder_command": "0x98",
+      "nec_command": "0x19",
+      "internal_id": 11,
+      "stock_behavior": "Source next, short release",
+      "code_evidence_addresses": [
+        "080134ba"
+      ]
+    },
+    {
+      "file_offset": "0xcb70",
+      "decoder_command": "0x84",
+      "nec_command": "0x21",
+      "internal_id": 12,
+      "stock_behavior": "Source previous, short release",
+      "code_evidence_addresses": [
+        "080134e8"
+      ]
+    },
+    {
+      "file_offset": "0xcb72",
+      "decoder_command": "0x04",
+      "nec_command": "0x20",
+      "internal_id": 36,
+      "stock_behavior": "Display-related short release, special long event",
+      "code_evidence_addresses": [
+        "08013854",
+        "080138a2"
+      ]
+    },
+    {
+      "file_offset": "0xcb74",
+      "decoder_command": "0xc0",
+      "nec_command": "0x03",
+      "internal_id": 20,
+      "stock_behavior": "Settings/menu, short release; special hold context",
+      "code_evidence_addresses": [
+        "080134a0",
+        "08013910"
+      ]
+    },
+    {
+      "file_offset": "0xcb76",
+      "decoder_command": "0x60",
+      "nec_command": "0x06",
+      "internal_id": 9,
+      "stock_behavior": "Volume + / navigation",
+      "code_evidence_addresses": [
+        "08013516"
+      ]
+    },
+    {
+      "file_offset": "0xcb78",
+      "decoder_command": "0x08",
+      "nec_command": "0x10",
+      "internal_id": 10,
+      "stock_behavior": "Volume - / navigation",
+      "code_evidence_addresses": [
+        "08013586"
+      ]
+    },
+    {
+      "file_offset": "0xcb7a",
+      "decoder_command": "0x90",
+      "nec_command": "0x09",
+      "internal_id": 16,
+      "stock_behavior": "Context: BT/USB transport navigation, menu navigation",
+      "code_evidence_addresses": [
+        "080145cc",
+        "08014d30",
+        "0801a008"
+      ]
+    },
+    {
+      "file_offset": "0xcb7c",
+      "decoder_command": "0xe0",
+      "nec_command": "0x07",
+      "internal_id": 17,
+      "stock_behavior": "Context: BT/USB transport navigation, menu navigation",
+      "code_evidence_addresses": [
+        "080145cc",
+        "08014d30",
+        "0801a008"
+      ]
+    },
+    {
+      "file_offset": "0xcb7e",
+      "decoder_command": "0xa0",
+      "nec_command": "0x05",
+      "internal_id": 15,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb80",
+      "decoder_command": "0x20",
+      "nec_command": "0x04",
+      "internal_id": 40,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb82",
+      "decoder_command": "0xcc",
+      "nec_command": "0x33",
+      "internal_id": 23,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb84",
+      "decoder_command": "0xc4",
+      "nec_command": "0x23",
+      "internal_id": 24,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb86",
+      "decoder_command": "0x24",
+      "nec_command": "0x24",
+      "internal_id": 25,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb88",
+      "decoder_command": "0xa4",
+      "nec_command": "0x25",
+      "internal_id": 26,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb8a",
+      "decoder_command": "0x64",
+      "nec_command": "0x26",
+      "internal_id": 27,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb8c",
+      "decoder_command": "0xe4",
+      "nec_command": "0x27",
+      "internal_id": 28,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb8e",
+      "decoder_command": "0x14",
+      "nec_command": "0x28",
+      "internal_id": 29,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb90",
+      "decoder_command": "0x94",
+      "nec_command": "0x29",
+      "internal_id": 30,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb92",
+      "decoder_command": "0x0c",
+      "nec_command": "0x30",
+      "internal_id": 31,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb94",
+      "decoder_command": "0x8c",
+      "nec_command": "0x31",
+      "internal_id": 32,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcb96",
+      "decoder_command": "0xc8",
+      "nec_command": "0x13",
+      "internal_id": 33,
+      "stock_behavior": "Center balance when tone page active",
+      "code_evidence_addresses": [
+        "08013746"
+      ]
+    },
+    {
+      "file_offset": "0xcb98",
+      "decoder_command": "0x28",
+      "nec_command": "0x14",
+      "internal_id": 34,
+      "stock_behavior": "Tone parameter 20000ed6 decrement",
+      "code_evidence_addresses": [
+        "08013648"
+      ]
+    },
+    {
+      "file_offset": "0xcb9a",
+      "decoder_command": "0xe8",
+      "nec_command": "0x17",
+      "internal_id": 35,
+      "stock_behavior": "Tone parameter 20000ed6 increment",
+      "code_evidence_addresses": [
+        "080135f6"
+      ]
+    },
+    {
+      "file_offset": "0xcb9c",
+      "decoder_command": "0xa8",
+      "nec_command": "0x15",
+      "internal_id": 37,
+      "stock_behavior": "Tone parameter 20000ed7 increment",
+      "code_evidence_addresses": [
+        "0801369a"
+      ]
+    },
+    {
+      "file_offset": "0xcb9e",
+      "decoder_command": "0x18",
+      "nec_command": "0x18",
+      "internal_id": 41,
+      "stock_behavior": "Tone parameter 20000ed7 decrement",
+      "code_evidence_addresses": [
+        "080136f0"
+      ]
+    },
+    {
+      "file_offset": "0xcba0",
+      "decoder_command": "0x88",
+      "nec_command": "0x11",
+      "internal_id": 38,
+      "stock_behavior": "Balance increment/context menu",
+      "code_evidence_addresses": [
+        "0801381e",
+        "0801aa96"
+      ]
+    },
+    {
+      "file_offset": "0xcba2",
+      "decoder_command": "0x48",
+      "nec_command": "0x12",
+      "internal_id": 39,
+      "stock_behavior": "Balance decrement",
+      "code_evidence_addresses": [
+        "080137e8"
+      ]
+    },
+    {
+      "file_offset": "0xcba4",
+      "decoder_command": "0x44",
+      "nec_command": "0x22",
+      "internal_id": 22,
+      "stock_behavior": "Tone page, short release",
+      "code_evidence_addresses": [
+        "08013788"
+      ]
+    },
+    {
+      "file_offset": "0xcba6",
+      "decoder_command": "0x68",
+      "nec_command": "0x16",
+      "internal_id": 21,
+      "stock_behavior": "Tone toggle, short release",
+      "code_evidence_addresses": [
+        "0801379a"
+      ]
+    },
+    {
+      "file_offset": "0xcba8",
+      "decoder_command": "0x6c",
+      "nec_command": "0x36",
+      "internal_id": 18,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcbaa",
+      "decoder_command": "0xac",
+      "nec_command": "0x35",
+      "internal_id": 19,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcbac",
+      "decoder_command": "0x4c",
+      "nec_command": "0x32",
+      "internal_id": 42,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    },
+    {
+      "file_offset": "0xcbae",
+      "decoder_command": "0x2c",
+      "nec_command": "0x34",
+      "internal_id": 43,
+      "stock_behavior": "Accepted/mapped; no functional case found in reviewed dispatcher and its prehandlers",
+      "code_evidence_addresses": [
+        "080132e8",
+        "0801a008",
+        "080145cc",
+        "08014d30",
+        "080138dc"
+      ]
+    }
+  ]
+}

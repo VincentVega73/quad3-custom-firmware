@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "evidence_status": "confirmed_from_firmware",
+  "evidence": "C runtime source-label table and native source routing, exact v1.14j SHA256 documented in docs/TECHNICAL_BACKGROUND.md",
+  "sources": [
+    {"id": 0, "name": "Bluetooth"},
+    {"id": 1, "name": "USB"},
+    {"id": 2, "name": "Optical"},
+    {"id": 3, "name": "Coax"},
+    {"id": 4, "name": "ARC"},
+    {"id": 5, "name": "AUX1"},
+    {"id": 6, "name": "AUX2"},
+    {"id": 7, "name": "Phono"}
+  ]
+}
