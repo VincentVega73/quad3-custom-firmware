@@ -21,4 +21,4 @@ The four-byte dispatcher hook is at `0x3346`; the SK2 handler occupies `[0xD8F8,
 
 SK1 and SK2 use identical hook bytes. SK2 extends the original handler from 64 to 124 bytes: eight event comparisons and eight native source selections instead of three. Button 2 changes from ARC (ID 4) to AUX2 (ID 6); ARC moves to button 6. Buttons 0/1 retain USB/AUX1. The fallback, housekeeping call, requested-source write, native tail, and eight-byte stack discipline are preserved in design and rechecked separately.
 
-See [SK2 RC2 qualification and limitations](docs/SK2_RC2.md). RC2 has not been physically tested.
+See [SK2 RC2 qualification and limitations](docs/SK2_RC2.md). The owner subsequently reported successful RC2 installation and operation on one unit; see [hardware validation](docs/SK2_HARDWARE_VALIDATION.md).

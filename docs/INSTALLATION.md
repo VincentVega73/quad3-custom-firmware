@@ -3,7 +3,7 @@
 
 # Installation reference
 
-**SK2 RC2 is a Release Candidate and has not been physically validated.** Check the exact candidate's [qualification status](SK2_RC2.md) before considering installation. This reference does not certify a candidate or establish compatibility with your amplifier.
+**SK2 RC2 is a Release Candidate with owner-reported successful installation and operation on one physical amplifier.** See the [hardware report](SK2_HARDWARE_VALIDATION.md). Check the exact candidate's [qualification status](SK2_RC2.md) before considering installation. This reference does not certify a candidate or establish compatibility with your amplifier.
 
 ## Before a candidate update
 

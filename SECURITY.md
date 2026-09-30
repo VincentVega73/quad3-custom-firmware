@@ -1,6 +1,6 @@
 # Security and safety reports
 
-There is no security-support guarantee or guaranteed response time. SK2 RC2 is a Release Candidate unverified on hardware; SK1 hardware observations cover one unit only. Read [DISCLAIMER.md](DISCLAIMER.md).
+There is no security-support guarantee or guaranteed response time. SK2 RC2 is a Release Candidate with owner-reported successful installation and operation on one unit; this does not establish universal compatibility or exhaustive regression coverage. Read [DISCLAIMER.md](DISCLAIMER.md).
 
 Report reproducible patcher validation bypasses, unintended output overwrites, unexpected changed ranges, ABI failures, or source-state regressions through this repository. Include the affected commit, command, expected result, actual result, and a minimal synthetic reproducer where possible. Do not attach proprietary firmware, memory dumps, credentials, or personal identifiers.
 

@@ -18,4 +18,4 @@ The four-byte dispatcher hook is at `0x3346`; the SK2 handler occupies `[0xD8F8,
 
 Only four existing bytes are overwritten and 124 new bytes appended. The vector table, original runtime-init tail, decoder/table, source worker, CEC/protection logic and NVRAM implementation are byte-identical to stock. No image-local checksum/signature field is changed; no such required field was identified by the bounded format investigation. SK1 updater acceptance is an owner observation for one unit, not an RC2 installation result.
 
-See [SK2 RC2 qualification and limitations](docs/SK2_RC2.md). RC2 has not been physically tested.
+See [SK2 RC2 qualification and limitations](docs/SK2_RC2.md). The owner subsequently reported successful RC2 installation and operation on one unit; see [hardware validation](docs/SK2_HARDWARE_VALIDATION.md).
