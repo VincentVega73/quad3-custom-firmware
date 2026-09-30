@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "release": "SK2-RC2",
+  "original_sha256": "7dff59e986643543c28c7f71c1f43f78c936867b25b078e0c1bd0ea5a6fe3853",
+  "patched_sha256": "08555b7437781bcef803f6469eb56428aa1dc30716a262938f7b211a0e863146",
+  "candidate_size": 55668,
+  "collection_mode": "existing_reports",
+  "hash_representation": "UTF-8 text with CRLF normalized to LF",
+  "source_hash_binding": "Current source tree. Existing report image identities and coverage were checked; suites were not rerun by this collection.",
+  "runtime_versions": {
+    "python": "3.14.5",
+    "capstone_binding": "5.0.7",
+    "keystone_binding": "0.9.2",
+    "unicorn_binding": "2.1.4"
+  },
+  "suites": [
+    {
+      "suite": "verify_dispatcher_rc2.py",
+      "script_sha256": "e9c73ced90ca5afa5463213f632e3c6a7477d68ce463ba3839e15324a4191a08",
+      "report": "verify_dispatcher_rc2.json",
+      "report_sha256": "c5d5e0e8cf9ad261da61199592051cf43c46c8602de65bd6db930e77dc744214",
+      "status": "PASS"
+    },
+    {
+      "suite": "verify_transitions_rc2.py",
+      "script_sha256": "da30956abe7555077bed6ce5d3d4b93424178545234ad8d52007f455e35d0e38",
+      "report": "verify_transitions_rc2.json",
+      "report_sha256": "08a70680d51cfd70250de435d934038d14755e370b3764aa6729ff0cb102e0f9",
+      "status": "PASS"
+    }
+  ],
+  "supporting_file_sha256": {
+    "tests/local/emulate_startup.py": "9bf96e8492556815d0b4b5c411fe08917654b364be06fffa0bb49fa7fc609614",
+    "tests/local/test_support.py": "4a000c9e73e6c46fa114597feb92792f1763648f0ac54ce9274ea89e6c820967",
+    "tests/local/run_rc2_validation.py": "8822eb89dfc07dc7955888faaf3af70b02cc96d51455c589c0e0836b546e9cb2",
+    "firmware_patch.py": "d4a400d97a589fccd75fc55b1d1902276e0f2151824bceea4407b8728a51a270",
+    "qualify_rc2.py": "c6358acdfd56dd71e8d252324f83c7c712ddf5535ba5af286bb5765366c8cdcd",
+    "handler/handler_sk2.asm": "9ccdf1f23eb5e84865c61e9c89110d96dedaa931ab518d7274bb13a06ec60528",
+    "data/ir_mapping.json": "d2208788fb1cd58b7d20aa314cb0876f60faa62e3cf1dad1c642ba3c5bb52c34",
+    "requirements-emulation.txt": "b0fcfdb8953ba6c61aaa40ff8513ee27b124cbcc0884592c73cee726ce1ba467",
+    "tests/local/review_rc2.py": "f9dd5dc77556c77d12a63a92b27081e686180ca38daf6b5df3ef4c101778d251"
+  },
+  "hardware_validation": "NOT_PERFORMED",
+  "limitations": "Finite emulator scenarios with explicit hardware-call stubs; no physical amplifier, updater, or recovery validation."
+}

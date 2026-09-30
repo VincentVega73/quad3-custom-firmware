@@ -1,0 +1,285 @@
+{
+  "status": "PASS",
+  "baseline_equivalence_cases": 112512,
+  "new_command_cases": 384,
+  "payload_matches_assembler": true,
+  "delivery_matches_rebuild": true,
+  "all_16bit_non_target_trampoline_cases": 65528,
+  "direct_branches_checked": [
+    {
+      "from": "0x801d902",
+      "target": "0x801d944"
+    },
+    {
+      "from": "0x801d90a",
+      "target": "0x801d948"
+    },
+    {
+      "from": "0x801d912",
+      "target": "0x801d94c"
+    },
+    {
+      "from": "0x801d91a",
+      "target": "0x801d950"
+    },
+    {
+      "from": "0x801d922",
+      "target": "0x801d954"
+    },
+    {
+      "from": "0x801d92a",
+      "target": "0x801d958"
+    },
+    {
+      "from": "0x801d932",
+      "target": "0x801d95c"
+    },
+    {
+      "from": "0x801d93a",
+      "target": "0x801d960"
+    },
+    {
+      "from": "0x801d940",
+      "target": "0x801334a"
+    },
+    {
+      "from": "0x801d946",
+      "target": "0x801d962"
+    },
+    {
+      "from": "0x801d94a",
+      "target": "0x801d962"
+    },
+    {
+      "from": "0x801d94e",
+      "target": "0x801d962"
+    },
+    {
+      "from": "0x801d952",
+      "target": "0x801d962"
+    },
+    {
+      "from": "0x801d956",
+      "target": "0x801d962"
+    },
+    {
+      "from": "0x801d95a",
+      "target": "0x801d962"
+    },
+    {
+      "from": "0x801d95e",
+      "target": "0x801d962"
+    },
+    {
+      "from": "0x801d964",
+      "target": "0x80131f8"
+    },
+    {
+      "from": "0x801d96c",
+      "target": "0x80134d4"
+    }
+  ],
+  "gated_candidate_cases": 2752,
+  "extended_candidate_cases": 8192,
+  "native_source_side_effect_equivalence_cases": 248,
+  "decoder_cases": 72,
+  "checksum_validation": "NOT POSSIBLE: bootloader/integrity contract unknown",
+  "hardware_validation": "NOT PERFORMED by this test; enumerated external callees are ABI stubs",
+  "captured_frame_to_source_cases": [
+    {
+      "button": 0,
+      "nec_frame": "32 EE 33 CC",
+      "decoder_command": "0xcc",
+      "event": "0x5017",
+      "source_id": 1,
+      "amp_bank_pass": true,
+      "cd_bank_filtered": true,
+      "inverse_not_enforced": true
+    },
+    {
+      "button": 1,
+      "nec_frame": "32 EE 23 DC",
+      "decoder_command": "0xc4",
+      "event": "0x5018",
+      "source_id": 5,
+      "amp_bank_pass": true,
+      "cd_bank_filtered": true,
+      "inverse_not_enforced": true
+    },
+    {
+      "button": 2,
+      "nec_frame": "32 EE 24 DB",
+      "decoder_command": "0x24",
+      "event": "0x5019",
+      "source_id": 6,
+      "amp_bank_pass": true,
+      "cd_bank_filtered": true,
+      "inverse_not_enforced": true
+    },
+    {
+      "button": 3,
+      "nec_frame": "32 EE 25 DA",
+      "decoder_command": "0xa4",
+      "event": "0x501a",
+      "source_id": 7,
+      "amp_bank_pass": true,
+      "cd_bank_filtered": true,
+      "inverse_not_enforced": true
+    },
+    {
+      "button": 4,
+      "nec_frame": "32 EE 26 D9",
+      "decoder_command": "0x64",
+      "event": "0x501b",
+      "source_id": 3,
+      "amp_bank_pass": true,
+      "cd_bank_filtered": true,
+      "inverse_not_enforced": true
+    },
+    {
+      "button": 5,
+      "nec_frame": "32 EE 27 D8",
+      "decoder_command": "0xe4",
+      "event": "0x501c",
+      "source_id": 2,
+      "amp_bank_pass": true,
+      "cd_bank_filtered": true,
+      "inverse_not_enforced": true
+    },
+    {
+      "button": 6,
+      "nec_frame": "32 EE 28 D7",
+      "decoder_command": "0x14",
+      "event": "0x501d",
+      "source_id": 4,
+      "amp_bank_pass": true,
+      "cd_bank_filtered": true,
+      "inverse_not_enforced": true
+    },
+    {
+      "button": 7,
+      "nec_frame": "32 EE 29 D6",
+      "decoder_command": "0x94",
+      "event": "0x501e",
+      "source_id": 0,
+      "amp_bank_pass": true,
+      "cd_bank_filtered": true,
+      "inverse_not_enforced": true
+    }
+  ],
+  "amp_then_cd_without_ram_reset_cases": 64,
+  "stub_policy": "Only STUB_TARGETS may be stubbed; r0-r3 set to zero; unknown targets fail.",
+  "stubbed_calls": [
+    {
+      "target": "0x8010a40",
+      "callsites": [
+        "0x8013316"
+      ]
+    },
+    {
+      "target": "0x8010bd8",
+      "callsites": [
+        "0x801342e"
+      ]
+    },
+    {
+      "target": "0x8010d54",
+      "callsites": [
+        "0x8013878"
+      ]
+    },
+    {
+      "target": "0x80123ec",
+      "callsites": [
+        "0x8016f46"
+      ]
+    },
+    {
+      "target": "0x8012594",
+      "callsites": [
+        "0x8013568",
+        "0x80135d8",
+        "0x8013774",
+        "0x8013838"
+      ]
+    },
+    {
+      "target": "0x8012daa",
+      "callsites": [
+        "0x801362c",
+        "0x80136d4",
+        "0x80137d4"
+      ]
+    },
+    {
+      "target": "0x8014d24",
+      "callsites": [
+        "0x8014d64",
+        "0x8014d74",
+        "0x8014d84"
+      ]
+    },
+    {
+      "target": "0x8015152",
+      "callsites": [
+        "0x8013284",
+        "0x8013290",
+        "0x8013572",
+        "0x80135e2"
+      ]
+    },
+    {
+      "target": "0x80157ce",
+      "callsites": [
+        "0x8013a12"
+      ]
+    },
+    {
+      "target": "0x8015ca0",
+      "callsites": [
+        "0x801392a",
+        "0x8013998",
+        "0x80139d8",
+        "0x8013a08"
+      ]
+    },
+    {
+      "target": "0x801672c",
+      "callsites": [
+        "0x80136be",
+        "0x8013714"
+      ]
+    },
+    {
+      "target": "0x8018242",
+      "callsites": [
+        "0x8013578",
+        "0x80135e8"
+      ]
+    },
+    {
+      "target": "0x8019e18",
+      "callsites": [
+        "0x801a0a2"
+      ]
+    },
+    {
+      "target": "0x8019f0e",
+      "callsites": [
+        "0x80138a6",
+        "0x801aaaa"
+      ]
+    }
+  ],
+  "startup_ram_rebuilt_in_memory": true,
+  "runtime_versions": {
+    "python": "3.14.5",
+    "capstone_binding": "5.0.7",
+    "keystone_binding": "0.9.2",
+    "unicorn_binding": "2.1.4"
+  },
+  "limits": "Finite enumerated states; no proof for all RAM states, interleaved interrupts, analog timing, updater or recovery.",
+  "runtime_seconds": 110.41,
+  "original_sha256": "7dff59e986643543c28c7f71c1f43f78c936867b25b078e0c1bd0ea5a6fe3853",
+  "patched_sha256": "08555b7437781bcef803f6469eb56428aa1dc30716a262938f7b211a0e863146"
+}
