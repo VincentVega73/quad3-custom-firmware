@@ -18,7 +18,7 @@ An independent community project to add direct input selection to **QUAD 3 Syste
 | Revision | Status |
 |---|---|
 | SK1 RC1 | The owner reports successful installation through the stock USB updater, a successful reboot, and working direct selection of USB, AUX1, and ARC on **one physical QUAD 3**. |
-| SK2 RC2 | **Release Candidate — unverified on hardware.** The owner has supplied physical IR captures for buttons `0–7`. Local generation and qualification results are recorded in the [RC2 report](docs/SK2_RC2.md). No RC2 hardware test has been reported. |
+| SK2 RC2 | **Release Candidate — owner-tested on one physical QUAD 3.** The owner reports successful installation and that everything works well. See the [hardware report](docs/SK2_HARDWARE_VALIDATION.md) for scope and the [RC2 report](docs/SK2_RC2.md) for offline qualification. |
 
 The SK1 observations establish results on that unit only. They do not establish compatibility with every hardware revision, a complete regression pass, or a recovery procedure. See [SK1 validation](docs/SK1_VALIDATION.md) and [the RC2 status report](docs/SK2_RC2.md).
 
@@ -39,7 +39,7 @@ This is the required RC2 layout. The owner supplied VS1838B/ESP32 captures for p
 | `8` | Not established | Reserved; no added function | — |
 | `9` | Not established | Reserved; no added function | — |
 
-**Button `2` deliberately changes from ARC in SK1 to AUX2 in SK2. ARC moves to button `6`.** All eight assignments in the RC2 image still require physical validation. The [IR evidence](docs/IR_CODES.md) distinguishes owner-reported captures, hardware observations, firmware analysis, and inference. The machine-readable record is [data/ir_mapping.json](data/ir_mapping.json).
+**Button `2` deliberately changes from ARC in SK1 to AUX2 in SK2. ARC moves to button `6`.** The owner reports successful RC2 operation; an itemized per-input and regression checklist was not supplied. The [IR evidence](docs/IR_CODES.md) distinguishes owner-reported captures, hardware observations, firmware analysis, and inference. The machine-readable record is [data/ir_mapping.json](data/ir_mapping.json).
 
 ## How the patch works
 
@@ -65,7 +65,7 @@ Do not proceed on any failed check. Read [tests/README.md](tests/README.md), the
 
 ## Installation and USB media
 
-RC2 has not been physically validated. Candidate installation remains entirely at the user's risk; read the [installation guide](docs/INSTALLATION.md) and check the exact candidate's qualification report first. Recovery is not established or guaranteed.
+The owner reports successful RC2 installation and operation on one amplifier. Candidate installation remains entirely at the user's risk; read the [installation guide](docs/INSTALLATION.md) and check the exact candidate's qualification report first. Recovery is not established or guaranteed.
 
 The QUAD 3 updater appears sensitive to USB media. In one verified test, a 32 GB FAT32 drive repeatedly failed with `FILE CAN'T FIND`, while an 8 GB FAT32 drive successfully completed the update. Small, simple USB 2.0 FAT32 media are therefore recommended. This owner-reported result does **not** make exactly 8 GB mandatory or prove that every 32 GB drive fails. See [USB updater notes](docs/USB_UPDATER_NOTES.md).
 

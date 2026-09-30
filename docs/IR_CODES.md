@@ -23,7 +23,7 @@ All command and address bytes in this document are **hexadecimal**. The address 
 
 All eight active commands are accepted/mapped by stock firmware. No functional case for their short-release events was found in the reviewed dispatcher and prehandlers. This is a bounded reverse-engineering result, not a claim that every possible stock context was tested on hardware.
 
-**No SK2 source assignment has been tested on an amplifier yet.** Button 2 intentionally changes from SK1 ARC to SK2 AUX2; ARC moves to button 6. The provenance and null fields for reserved buttons are machine-readable in [ir_mapping.json](../data/ir_mapping.json). The complete semantic stock table is in [firmware_ir_commands.json](../data/firmware_ir_commands.json); it does not establish physical labels by itself.
+**The owner now reports successful RC2 installation and operation on one amplifier.** No itemized per-button checklist was supplied; see [hardware validation](SK2_HARDWARE_VALIDATION.md). Button 2 intentionally changes from SK1 ARC to SK2 AUX2; ARC moves to button 6. The provenance and null fields for reserved buttons are machine-readable in [ir_mapping.json](../data/ir_mapping.json). The complete semantic stock table is in [firmware_ir_commands.json](../data/firmware_ir_commands.json); it does not establish physical labels by itself.
 
 ## Bit order and address-bank isolation
 
@@ -44,7 +44,7 @@ The general NEC framing reference is [Vishay, Data Formats for IR Remote Control
 | Labels 0–7 and wire frames in AMP/A mode | Confirmed from physical capture, as reported by owner | No fresh capture or archived timing log in this repository |
 | Labels 0/1/2 produce USB/AUX1/ARC under SK1 | Owner-reported physical hardware observation | One tested unit; applies to SK1 |
 | Decoder bytes, table IDs and event formation | Confirmed from exact firmware and checked by emulation | Peripheral/timing inputs are modeled |
-| SK2 target source IDs | Project design requirement | Real amplifier behavior remains unverified |
+| SK2 target source IDs | Firmware/emulator evidence plus owner-reported successful RC2 operation | Per-input checklist and exhaustive regressions not supplied |
 | Physical codes for 8/9 | Unverified and reserved | No event assignments invented |
 | Flash-family capacity model | Inference | Not a physical MCU identification |
 

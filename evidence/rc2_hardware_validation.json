@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "release": "SK2-RC2",
+  "status": "owner_tested_on_one_unit",
+  "release_classification": "release_candidate",
+  "evidence_class": "owner_reported_physical_observation",
+  "tested_units": 1,
+  "installation_successful": true,
+  "operation_successful": true,
+  "owner_statement_english": "I installed RC2; everything works great.",
+  "reference_candidate_sha256": "08555b7437781bcef803f6469eb56428aa1dc30716a262938f7b211a0e863146",
+  "installed_hash_independently_verified": false,
+  "per_input_results": null,
+  "exhaustive_regression_checklist_supplied": false,
+  "hardware_revision": null,
+  "experiment_date": null,
+  "recovery_verified": false,
+  "scope": "General successful installation and operation on the owner's amplifier. No additional per-feature measurements or compatibility claims are inferred."
+}

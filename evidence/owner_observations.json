@@ -10,7 +10,11 @@
     "reference_image_sha256": "36e78abe00ce2ba7351f29ce695019e9b9a18a263f993d3eddf21f87071f4e98",
     "stock_usb_updater_accepted": true,
     "rebooted_and_operated": true,
-    "observed_buttons": {"0": "USB", "1": "AUX1", "2": "ARC"},
+    "observed_buttons": {
+      "0": "USB",
+      "1": "AUX1",
+      "2": "ARC"
+    },
     "local_installation_copies_matched_reference_sha256": true,
     "successful_media_capacity_gb": 8,
     "successful_media_filesystem": "FAT32",
@@ -26,10 +30,14 @@
     "remote_mode": "AMP / A",
     "address_bytes": "32 EE",
     "frames_by_button": {
-      "0": "32 EE 33 CC", "1": "32 EE 23 DC",
-      "2": "32 EE 24 DB", "3": "32 EE 25 DA",
-      "4": "32 EE 26 D9", "5": "32 EE 27 D8",
-      "6": "32 EE 28 D7", "7": "32 EE 29 D6"
+      "0": "32 EE 33 CC",
+      "1": "32 EE 23 DC",
+      "2": "32 EE 24 DB",
+      "3": "32 EE 25 DA",
+      "4": "32 EE 26 D9",
+      "5": "32 EE 27 D8",
+      "6": "32 EE 28 D7",
+      "7": "32 EE 29 D6"
     },
     "cd_mode_address_bytes": "33 FD",
     "capture_session_date": null,
@@ -37,6 +45,13 @@
     "raw_timing_log_available_in_repository": false,
     "limitation": "Values supplied by owner from previous physical capture; not independently re-captured in this task."
   },
-  "sk2": {"physically_installed": false, "source_assignments_hardware_tested": false},
+  "sk2": {
+    "physically_installed": true,
+    "successful_operation_owner_reported": true,
+    "source_assignments_hardware_tested": null,
+    "per_input_checklist_supplied": false,
+    "evidence_class": "owner_reported_physical_observation",
+    "details": "rc2_hardware_validation.json"
+  },
   "recovery_experimentally_verified": false
 }

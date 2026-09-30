@@ -146,7 +146,7 @@ not establish physical audio correctness, peripheral timing, arbitrary
 interrupt preemption, concurrent CEC/USB/power/protection task scheduling,
 physical NVRAM endurance or power-loss behavior, updater acceptance, actual
 MCU flash capacity, or recovery. A passing emulator report is not a hardware
-test. RC2 remains physically untested until a separate owner experiment.
+test. The owner subsequently reported successful physical RC2 installation and operation; see [the separate hardware report](../../docs/SK2_HARDWARE_VALIDATION.md). These emulator results retain their original offline scope.
 
 Results from these suites belong to the exact RC2 hash in their reports. They
 must not be combined with or relabeled from the historical SK1 counts.

@@ -1,6 +1,6 @@
 # SK2 RC2 qualification report
 
-**Status: Release Candidate. Not installed or tested on physical hardware.** Owner-supplied physical remote captures establish labels 0–7; they do not validate the new firmware's source switching. Read [DISCLAIMER.md](../DISCLAIMER.md).
+**Status: Release Candidate — owner-tested on one physical QUAD 3.** The owner reports that RC2 was installed and everything works well. See [the hardware observation and its scope](SK2_HARDWARE_VALIDATION.md). Read [DISCLAIMER.md](../DISCLAIMER.md).
 
 ## Identity and target behavior
 
@@ -62,9 +62,9 @@ Published reports and their scope are indexed in [evidence/README.md](../evidenc
 
 ## Hardware status and unresolved behavior
 
-RC2 has not been flashed. SK1 was accepted by the stock updater, rebooted and selected its three targets on one owner-tested unit; that is separate evidence described in [SK1_VALIDATION.md](SK1_VALIDATION.md).
+The owner has now installed RC2 and reports successful operation on one unit. This is a physical observation supplied by the owner, separate from the emulator results. An itemized per-input/regression log and a hash read back from the installed image were not supplied. SK1 was accepted by the stock updater, rebooted and selected its three targets on one owner-tested unit; that is separate evidence described in [SK1_VALIDATION.md](SK1_VALIDATION.md).
 
-Physical RC2 tests must cover all eight selections and audio paths, same-source repeats, rapid sequences, requests during transitions, persistence after restart, Power/Standby, volume/mute/tone/balance, stock source cycling, front-panel operation, ARC/CEC automatic selection, USB Audio, Bluetooth, trigger behavior, protection, display and factory defaults. Exercise USB → AUX1 → AUX2 → Phono → Coax → Optical → ARC → Bluetooth → USB and repeated USB/ARC/Phono selections. Record what was actually exercised; do not infer full subsystem coverage from a successful boot.
+For documented regression coverage beyond the general success report, record results for all eight selections and audio paths, same-source repeats, rapid sequences, requests during transitions, persistence after restart, Power/Standby, volume/mute/tone/balance, stock source cycling, front-panel operation, ARC/CEC automatic selection, USB Audio, Bluetooth, trigger behavior, protection, display and factory defaults. Exercise USB → AUX1 → AUX2 → Phono → Coax → Optical → ARC → Bluetooth → USB and repeated USB/ARC/Phono selections. Record what was actually exercised; do not infer full subsystem coverage from a successful boot.
 
 The exact MCU and other hardware revisions remain unidentified. Updater policy, behavior during power loss, flash contents beyond the original EOF and recovery are not fully characterized. There is no experimentally established recovery procedure. The 128 KiB boundary is a compatible-device model, not a capacity read from the amplifier.
 

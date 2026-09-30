@@ -1,6 +1,6 @@
 # Candidate and release process
 
-**Current status: SK2 RC2 is a Release Candidate, unverified on hardware.** Owner-reported captures now establish physical numeric mappings `0–7`. Use the [RC2 report](SK2_RC2.md) for the exact output and actual software qualification results; the presence of this process document does not establish that its checks passed.
+**Current status: SK2 RC2 is a Release Candidate, owner-tested on one physical amplifier.** The owner reports successful installation and operation; see [hardware validation](SK2_HARDWARE_VALIDATION.md). Owner-reported captures now establish physical numeric mappings `0–7`. Use the [RC2 report](SK2_RC2.md) for the exact output and actual software qualification results; the presence of this process document does not establish that its checks passed.
 
 ## 1. Establish evidence
 
